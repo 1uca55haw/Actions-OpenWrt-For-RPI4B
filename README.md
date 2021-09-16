@@ -9,3 +9,6 @@
  LuCI ---> Applications ---> luci-app-uugamebooster  #UU网游加速器<Br/>
  默认用户名：root 密码：password<Br/> 
  ip地址：192.168.50.3<Br/>
+
+源码：https://github.com/coolsnowwolf/lede
+脚本：https://github.com/P3TERX/Actions-OpenWrt
