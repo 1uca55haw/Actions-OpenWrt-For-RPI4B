@@ -1,0 +1,29 @@
+2 切换到ROOT用户
+使用命令
+
+sudo -i
+可以看到命令行前的$变成了#，前缀变为root，代表切换成ROOT用户成功了。
+
+3 设置ROOT密码
+使用命令
+
+passwd
+接着输入密码回车，再输入密码(确认)回车，
+提示password updated successfully就代表设置成功了，
+如果有其他返回信息提示，考虑一下提示的是不是密码过于简单。
+
+4 修改SSH配置允许第三方SSH登录
+在root账户下依次输入以下代码
+CentOS和Debian通用，输入以下两条命令
+
+    sed -i 's/PermitRootLogin no/PermitRootLogin yes/g' /etc/ssh/sshd_config
+    sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
+Ubuntu系统，输入以下两条命令
+
+    sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/g' /etc/ssh/sshd_config
+    sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
+然后输入
+
+reboot
+5 登录
+重启过后就可以通过putty，xshell，finalshell等第三方程序进行SSH登录了。
