@@ -10,5 +10,5 @@
  默认用户名：root 密码：password<Br/> 
  ip地址：192.168.50.3<Br/>
 
-源码：https://github.com/coolsnowwolf/lede
-脚本：https://github.com/P3TERX/Actions-OpenWrt
+源码：https://github.com/coolsnowwolf/lede<Br/>
+脚本：https://github.com/P3TERX/Actions-OpenWrt<Br/>
