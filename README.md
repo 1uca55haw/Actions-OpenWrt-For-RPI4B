@@ -1,4 +1,4 @@
- 每天0点随源码更新自动编译OpenWrt树莓派4B固件<Br/>
+ 每天0点随源码更新，自动编译OpenWrt树莓派4B固件<Br/>
  预安装app：<Br/>
  LuCI ---> Applications ---> luci-app-adbyby-plus   #广告屏蔽大师Plus +<Br/>
  LuCI ---> Applications ---> luci-app-netdata  #Netdata实时监控（图形化）<Br/>
